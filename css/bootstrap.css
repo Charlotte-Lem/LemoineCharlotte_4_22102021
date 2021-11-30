@@ -1442,7 +1442,7 @@ img {
 .thumbnail a > img,
 .thumbnail > img {
   max-width: 100%;
-  height: auto;
+  height: 270px;
 }
 
 .img-rounded {
@@ -1921,8 +1921,6 @@ address {
   font-style: normal;
   line-height: 1.42857143;
 }
-
-
 
 .container {
   padding-right: 15px;
@@ -5259,8 +5257,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
     0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
-
-
 .carousel-control.right {
   right: 0;
   left: auto;
@@ -5274,7 +5270,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     rgba(0, 0, 0, 0.0001) 0,
     rgba(0, 0, 0, 0.5) 100%
   );
- 
+
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.0001) 0,
@@ -5283,7 +5279,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x;
 }
-
 
 .btn-group-vertical > .btn-group:after,
 .btn-group-vertical > .btn-group:before,
@@ -5404,4 +5399,3 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .visible-xs-inline-block {
   display: none !important;
 }
-
